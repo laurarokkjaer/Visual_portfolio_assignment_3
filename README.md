@@ -53,4 +53,5 @@ The classification report, as well as the prediction-plot can be seen in the out
 ## Discussion of results
 something about 
 - a user defined input (what that could do for the assignment and the reproducability 
+- what is a pretrained CNN
 
