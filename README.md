@@ -18,7 +18,7 @@ Also containing a ```MITLICENSE``` for guidelines of how to reproduce and use th
 
 
 ## Assignment description
-The official description of the assignment from github/brightspace (https://github.com/CDS-AU-DK/cds-visual/blob/main/assignments/assignment3.md):
+The official description of the assignment from github/brightspace: [assignment description](https://github.com/CDS-AU-DK/cds-visual/blob/main/assignments/assignment3.md).
 
 In this assignment, you are still going to work with the CIFAR10 dataset. However, this time, you are going to make build a classifier using transfer learning with a pretrained CNN like VGG16 for feature extraction.
 Your .py script should minimally do the following:
@@ -33,9 +33,13 @@ Save the classification report
 The goal of this assignment was to show that the ablility to use transfer learning in the context of image data, a state-of-the-art task in deep learning
 Thw assignment was also intended to increase the familiarity of working with Tensorflow/Keras, and with building complex deep learning pipelines.
 
+### Data source
+The data used in this assignment is the CIFAR-10 dataset from [the cifar-10 dataset website](https://www.cs.toronto.edu/~kriz/cifar.html). 
+
+Reference: [Learning Multiple Layers of Features from Tiny Images](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
 
 ## Methods
-To solve this assignment i mainly worked with ```tensorflow``` operations in order to process the images, as well as initialzing the model and it's layers. The model used from this installments is ```VGG16```and the dataset used is tensorflows ```cifar10``` (32x32). Furthermore ```scikit-learn```was used for the classification report and ```matplotlib```for plotting. 
+To solve this assignment i mainly worked with ```tensorflow``` operations in order to process the images, as well as initialzing the model and it's layers. The model used from this installments is ```VGG16```and the dataset used is tensorflows ```CIFAR-10``` (32x32). Furthermore ```scikit-learn```was used for the classification report and ```matplotlib```for plotting. 
 
 ## Usage (reproducing results)
 For this .py script the following should be written in the command line:
@@ -49,5 +53,4 @@ The classification report, as well as the prediction-plot can be seen in the out
 ## Discussion of results
 something about 
 - a user defined input (what that could do for the assignment and the reproducability 
-- the transision from a notebook to a .py script 
 
