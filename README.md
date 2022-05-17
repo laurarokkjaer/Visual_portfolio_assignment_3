@@ -42,17 +42,16 @@ Reference: [Learning Multiple Layers of Features from Tiny Images](https://www.c
 To solve this assignment i mainly worked with ```tensorflow``` operations in order to process the images, as well as initialzing the model and it's layers. The model used from this installments is ```VGG16```and the dataset used is tensorflows ```CIFAR-10``` (32x32). Furthermore ```scikit-learn```was used for the classification report and ```matplotlib```for plotting. 
 
 ## Usage (reproducing results)
+These are the steps you will need to follow in order to get the script running and working:
+- load the given data into ```input```
+- change your current working directory to the folder before src in order to get access to the input and utils folder as well 
+- the following shpuld be written in the command line:
 
-- load data into ``ìnput```
-- change your current working directory to the folder before src in order to get access to the input folder as well 
-- 
-
-For this .py script the following should be written in the command line:
-- change directory to the folder /src 
-- write the command: python pretrained_cnns.py
-- when processing results there will be a messagge saying that the script has succeeded and the outputs can be seen in the output folder 
-
-The classification report, as well as the prediction-plot can be seen in the output folder.
+      - cd src (changing the directory to the src folder in order to run the script)
+      
+      - python pretrained_cnns.py (calling the function within the script)
+      
+- when processed results there will be a messagge saying that the script has succeeded and the outputs can be seen in the output folder 
 
 
 ## Discussion of results
