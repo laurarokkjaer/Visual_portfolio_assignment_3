@@ -99,7 +99,7 @@ def evaluate(model, X_test, y_test, label_names):
     print(report)
     
     # Save report 
-    with open('../output/cnn_report.txt', 'w') as my_txt_file:
+    with open('output/cnn_report.txt', 'w') as my_txt_file:
         my_txt_file.write(report)
 
 
@@ -127,7 +127,7 @@ def plot_history(H, epochs):
     plt.legend()
     
     # Saving image
-    plt.savefig(os.path.join("..", "output", "cnn_plot.png"))
+    plt.savefig(os.path.join("output", "cnn_plot.png"))
     
 
     
