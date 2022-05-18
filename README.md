@@ -58,6 +58,7 @@ These are the steps you will need to follow in order to get the script running a
 
 ## Discussion of results
 something about 
+
 - a user defined input (what that could do for the assignment and the reproducability 
 - what is a pretrained CNN
 
