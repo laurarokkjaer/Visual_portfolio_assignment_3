@@ -21,18 +21,18 @@ Also containing a ```MITLICENSE``` for guidelines of how to reproduce and use th
 ## Assignment description
 The official description of the assignment from github/brightspace: [assignment description](https://github.com/CDS-AU-DK/cds-visual/blob/main/assignments/assignment3.md).
 
-In this assignment, you are still going to work with the CIFAR10 dataset. However, this time, you are going to make build a classifier using transfer learning with a pretrained CNN like VGG16 for feature extraction.
+In this assignment, you are still going to work with the CIFAR10 dataset. However, this time, you are going to make  a classifier using transfer learning with a pretrained CNN like VGG16 for feature extraction.
 Your .py script should minimally do the following:
 
-Load the CIFAR10 dataset
-Use VGG16 to perform feature extraction
-Train a classifier
-Save plots of the loss and accuracy
-Save the classification report
+- Load the CIFAR10 dataset
+- Use VGG16 to perform feature extraction
+- Train a classifier
+- Save plots of the loss and accuracy
+- Save the classification report
 
 ### The goal of the assignment 
 The goal of this assignment was to show that the ablility to use transfer learning in the context of image data, a state-of-the-art task in deep learning
-Thw assignment was also intended to increase the familiarity of working with Tensorflow/Keras, and with building complex deep learning pipelines.
+The assignment was also intended to increase the familiarity of working with Tensorflow/Keras, and with building complex deep learning pipelines.
 
 ### Data source
 The data used in this assignment is the CIFAR-10 dataset from [the cifar-10 dataset website](https://www.cs.toronto.edu/~kriz/cifar.html). 
@@ -57,8 +57,4 @@ These are the steps you will need to follow in order to get the script running a
 
 
 ## Discussion of results
-something about 
-
-- a user defined input (what that could do for the assignment and the reproducability 
-- what is a pretrained CNN
-
+The classification report of this pretrained CNN (VGG16) shows an accuracy of 52%, which is a fairly good result. The VGG16 model is good for deep learning image classification problems with its convolutional neural network of 16 layers. I believe that a pretrained CNN like this one has shown to be more accurate at classifications of images on specifically the CIFAR10 datset (more than the logistic regression and neural network).
