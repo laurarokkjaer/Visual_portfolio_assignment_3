@@ -95,7 +95,8 @@ def evaluate(model, X_test, y_test, label_names):
     report = classification_report(y_test.argmax(axis=1), 
                                    predictions.argmax(axis=1), 
                                    target_names=label_names)
-    #print(report)
+    print("Script succeeded: The following results shows the classification report, which can also be found in the output-folder")
+    print(report)
     
     # Save report 
     with open('../output/cnn_report.txt', 'w') as my_txt_file:
@@ -140,8 +141,8 @@ def main():
                         batch_size = 128)
     evaluate(model, X_test, y_test, label_names)
     plot_history(H, 10)
+    
     print("Script succeeded: The following results shows the classification report, which can also be found in the output-folder")
-    print(report)
 
 
 # Run main() function from terminal only
